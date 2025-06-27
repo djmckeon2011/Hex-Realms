@@ -1,0 +1,35 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#ui {
+  padding: 10px;
+}
+#gameCanvas {
+  border: 2px solid #444;
+  margin-top: 10px;
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+#quest-log {
+  margin: 10px auto;
+  max-width: 600px;
+}
+#starter-guide {
+  margin-top: 20px;
+  background: #222;
+  padding: 10px;
+  border: 1px solid #444;
+}
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; transform: translateY(-20px); }
+}

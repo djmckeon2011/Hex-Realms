@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hexbound Realms</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Hexbound Realms (Alpha)</h1>
+  <div id="ui">
+    <div id="game-controls">
+      <button onclick="startGame()">Start Game</button>
+      <button onclick="saveGame()">Save</button>
+      <button onclick="loadGame()">Load</button>
+    </div>
+    <div id="quest-log"></div>
+    <canvas id="gameCanvas" width="960" height="640"></canvas>
+    <div id="starter-guide">
+      <h2>Starter Guide</h2>
+      <p><strong>Units:</strong> Train units using gold. Some units require tech unlocks. Units gain XP and can be upgraded.</p>
+      <p><strong>Buildings:</strong> Construct in cities to boost income, defense, or unlock capabilities.</p>
+      <p><strong>Tech Tree:</strong> Research techs to unlock stronger units and abilities.</p>
+      <p><strong>Quests:</strong> Complete quests to gain rewards such as gold, units, or tech boosts.</p>
+      <p><strong>Victory:</strong> Win by defeating all enemies or completing campaign objectives.</p>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
